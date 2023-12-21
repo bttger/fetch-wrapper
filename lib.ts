@@ -64,6 +64,8 @@ export type EnhancedRequestInit = RequestInit & {
  * - Automatic transformation of JSON response.
  * - Allows setting a before and after interceptor function.
  * - Customizable response timeout.
+ * - TODO: passing a cancel token to abort the request.
+ * - TODO: File upload support.
  *
  * @param url The URL to request.
  * @param options The enhanced fetch options object. Supports code completion for all native fetch options.
